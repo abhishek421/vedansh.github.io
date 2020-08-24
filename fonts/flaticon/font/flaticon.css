@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 15/07/2020 11:15
+  	Creation date: 18/08/2020 09:45
   	*/
 
 @font-face {
@@ -30,15 +30,8 @@ font-style: normal;
 margin-left: 20px;
 }
 
-.flaticon-system:before { content: "\f100"; }
-.flaticon-supervised:before { content: "\f101"; }
-.flaticon-accounting:before { content: "\f102"; }
-.flaticon-engineer:before { content: "\f103"; }
-.flaticon-blueprint:before { content: "\f104"; }
-.flaticon-lamp:before { content: "\f105"; }
-.flaticon-house:before { content: "\f106"; }
-.flaticon-relax:before { content: "\f107"; }
-.flaticon-kitchen:before { content: "\f108"; }
-.flaticon-debate:before { content: "\f109"; }
-.flaticon-wall:before { content: "\f10a"; }
-.flaticon-hotel:before { content: "\f10b"; }
+.flaticon-worker:before { content: "\f100"; }
+.flaticon-industry:before { content: "\f101"; }
+.flaticon-analytics:before { content: "\f102"; }
+.flaticon-checklist:before { content: "\f103"; }
+.flaticon-maintenance:before { content: "\f104"; }
