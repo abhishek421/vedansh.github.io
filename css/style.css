@@ -9903,6 +9903,10 @@ textarea.form-control {
   #navbar-logo{
     height: 60px;
   }
+  .companylogo{
+    height: auto;
+    width: 120px;
+  }
 
 @-webkit-keyframes loader-rotate {
   100% {
