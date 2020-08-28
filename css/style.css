@@ -9904,9 +9904,11 @@ textarea.form-control {
     height: 60px;
   }
   .companylogo{
-    height: auto;
-    width: 120px;
+   width: 100px;
+   height: 60px;
+   
   }
+
 
 @-webkit-keyframes loader-rotate {
   100% {
