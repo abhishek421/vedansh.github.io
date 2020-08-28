@@ -9911,7 +9911,7 @@ textarea.form-control {
   
   
   .vcontainer {
-    max-width: 1000px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
@@ -9925,7 +9925,7 @@ textarea.form-control {
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
-  }
+    }
   .vresponsive-table .vtable-header {
     background-color: #95A5A6;
     font-size: 14px;
@@ -9935,18 +9935,10 @@ textarea.form-control {
   .vresponsive-table .vtable-row {
     background-color: #ffffff;
     box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+    
   }
   .vresponsive-table .vcol-1 {
-    flex-basis: 10%;
-  }
-  .vresponsive-table .vcol-2 {
-    flex-basis: 40%;
-  }
-  .vresponsive-table .vcol-3 {
-    flex-basis: 25%;
-  }
-  .vresponsive-table .vcol-4 {
-    flex-basis: 25%;
+    flex-basis: 100%;
   }
   @media all and (max-width: 767px) {
     .vresponsive-table .vtable-header {
