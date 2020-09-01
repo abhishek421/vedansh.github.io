@@ -9911,13 +9911,16 @@ textarea.form-control {
   
   
   .vcontainer {
-    width: 1000px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
   }
+  .vresponsive-table {
 
+    padding-inline-start: 0px;
+    }
   
   .vresponsive-table li {
     border-radius: 3px;
@@ -9940,6 +9943,8 @@ textarea.form-control {
   .vresponsive-table .vcol-1 {
     flex-basis: 100%;
   }
+
+  
   @media all and (max-width: 767px) {
     .vresponsive-table .vtable-header {
       display: none;
@@ -9954,16 +9959,83 @@ textarea.form-control {
       display: flex;
       padding: 10px 0;
     }
-    .vresponsive-table .vcol:before {
-      color: #6C7A89;
-      padding-right: 10px;
-      content: attr(data-label);
-      flex-basis: 50%;
-      text-align: right;
-    }
+   
+  }
+  dl{
+    margin:30px auto 60px;
+    max-width:80vw;
   }
   
-
+  dt{
+    background:#03afbe;
+    border-left:8px solid #0297a4;
+    color:#fff;
+    font-weight:700;
+    padding:15px;
+    position:relative;
+    text-align:left;
+    text-transform:uppercase;
+    transition: all .5s;
+    margin-bottom: 20px;
+  }
+  
+  dt:after,dt:before{
+    content:"\f078";
+    font-family:fontAwesome;
+    position:absolute;
+    right:15px;
+    height:28px;
+    top:0;
+    bottom:0;
+    margin:auto;
+    
+    transition:all .7s ease-in-out;
+  }
+  
+  dt:before{
+    opacity:0;
+    transition:all .4s ease-in-out;
+  }
+  
+  dt:hover{
+    cursor:pointer;
+  }
+  
+  dt + dd{
+    max-height:0;
+  }
+  
+  dd{
+    background:#dedede;
+    color:#000;
+    margin:0;
+    overflow:hidden;
+    padding:1px 15px;
+    
+    transition: all .5s;
+  }
+  
+  dt.open{
+    background:#03afbe;
+    border-color:#0297a4;
+    color:#edeff3;
+    margin:-5px;
+  }
+  
+  dt.open:after{
+    transform:rotate(180deg) translateY(-2px);
+ 
+  }
+  dt.open:before{
+    opacity: 0;
+    transform:rotate(-360deg) translateY(-3px);
+  }
+  
+  dt.open + dd{
+    padding:15px 15px;
+    margin:0 -5px;
+    max-height:100%;
+  }
 
 @-webkit-keyframes loader-rotate {
   100% {
