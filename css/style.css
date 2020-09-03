@@ -9904,9 +9904,12 @@ textarea.form-control {
     height: 60px;
   }
   .companylogo{
-   width: 100px;
-   height: 60px;
-   
+    height: 70px;
+  }
+
+  .companylogo img{
+    max-width: 100%;
+    max-height: 100%;
   }
   
   
