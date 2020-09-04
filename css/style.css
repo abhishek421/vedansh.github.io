@@ -9932,6 +9932,9 @@ textarea.form-control {
     justify-content: space-between;
     margin-bottom: 25px;
     }
+    .vresponsive-table li:hover{
+      box-shadow: 0px 0px 10px #8f8e8e;
+    }
   .vresponsive-table .vtable-header {
     background-color: #95A5A6;
     font-size: 14px;
@@ -10002,6 +10005,7 @@ textarea.form-control {
   
   dt:hover{
     cursor:pointer;
+    background-color: #0599a7; 
   }
   
   dt + dd{
@@ -10017,6 +10021,9 @@ textarea.form-control {
     
     transition: all .5s;
   }
+  
+  
+ 
   
   dt.open{
     background:#03afbe;
